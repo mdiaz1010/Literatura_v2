@@ -1,11 +1,20 @@
-<div class=" text-center"  style="background-image: url('<?=base_url("publico/images/servicios.jpg")?>');">
+<div class=" text-center"  style="
+
+								position: relative;        
+								max-width:100%;height:auto;
+								background-size: 100% 65%;      						
+								margin-left: auto;      
+								margin-right: auto;       
+								background-attachment: fixed; 
+								background-repeat: no-repeat; background-image: url('<?=base_url("publico/images/servicios.jpg")?>');" data-bgposition="center center"  data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
 	<div class="row bredcrumb-inner">
 		<div class="col-sm-12  align-self-center">
-			
+		<!--	
 			<ul class="" style="color:#f44336">
 				<li><a href="<?=base_url('Welcome/index')?>" class="bread_link" style="color:#f44336">Inicio</a></li>
-				<li style="color:#f44336">Servicios</li>
+				<li style="color:#f44336">Nosotros</li>
 			</ul>
+		-->		
 		</div>
 	</div>
 </div>
@@ -18,7 +27,7 @@
 				<div class="section-title title-ex1 text-center">
 					<a href="<?=base_url('Welcome/servicios')?>"><h2 class="title-text">SERVICIOS</h2></a>
 				</div>
-				<p class="description text-justify">Cabe precisar que en BORRADOR DE PAPA CORRECTORES no somos creadores de contenido, sino correctores de estilo. Esto quiere decir que no somos quienes seleccionarán el conjunto de ideas pertinentes para sostener algún punto de vista o informar sobre algún tema, sino quienes se encargarán de refinar el modo de comunicar dichas ideas, con la finalidad de que su intención u objetivo se transmitan exitosamente, evitando las ambigüedades, las imprecisiones o la fatiga del lector. Para ello, habrá que reparar en los siguientes aspectos: </p>
+				<p class="description text-justify">Cabe precisar que en BORRADOR DE PAPA CORRECTORES no somos creadores de contenido, sino correctores de estilo. Esto quiere decir que no somos quienes seleccionarán el conjunto de ideas pertinentes para sostener algún punto de vista o informar sobre algún tema, sino quienes se encargarán de refinar el modo de comunicar dichas ideas. La finalidad de nuestro trabajo es que la intención u objetivo del texto se transmitan exitosamente, evitando las ambigüedades, las imprecisiones o la fatiga del lector. Para ello, habrá que reparar en los siguientes aspectos:</p>
 			</div>
 			<div class="col-md-2"></div>
 		</div>
@@ -118,14 +127,14 @@
 	<div class="container">
 
 		<div class="row justify-content-md-center">
-			<div class="col-xl-12 col-lg-12 col-md-12">
-
-				<div class="section-title text-center title-ex1">
-					<h2>REUNIONES</h2>
-					<p></p>
+			<div class="col-md-2"></div>
+			<div class="col-md-8">
+				<div class="section-title title-ex1 text-center">
+					<a href="<?=base_url('Welcome/servicios')?>"><h2 class="title-text">REUNIONES</h2></a>
 				</div>
-
+				<p class="description text-justify">El proceso de corrección será acompañado de consultas que se dispondrán de la siguiente manera:</p>
 			</div>
+			<div class="col-md-2"></div>
 		</div>
 	
 		
@@ -134,7 +143,7 @@
 
 				<div class="card flex-wrap bg-sand hero-block home-about col-lg-4 col-md-4">
 				  <div class="process-img align-self-center d-md-flex d-xs-block">
-				  	<img src="<?=base_url("publico/images/about/wp7.jpg")?>" alt="Card image cap">
+				  	<img src="<?=base_url("publico/images/about/wp7.jpg")?>" alt="Corrección de tesis, tesinas u otros textos académicos">
 
 				  </div>
 				  <div class="card-body text-center">
@@ -156,7 +165,7 @@
 			
 				<div class="card flex-wrap bg-sand hero-block home-about col-lg-4 col-md-4">
 				  <div class="process-img align-self-center d-md-flex d-xs-block">
-				  	<img src="<?=base_url("publico/images/about/wp6.jpg")?>" alt="Card image cap">
+				  	<img src="<?=base_url("publico/images/about/wp6.jpg")?>" alt="Corrección de tesis, tesinas u otros textos académicos">
 
 				  </div>
 				  <div class="card-body text-center">
@@ -178,7 +187,7 @@
 			
 				<div class="card flex-wrap bg-sand hero-block home-about col-lg-4 col-md-4">
 				  <div class="process-img align-self-center d-md-flex d-xs-block">
-				  	<img src="<?=base_url("publico/images/about/wp5.jpg")?>" alt="Card image cap">
+				  	<img src="<?=base_url("publico/images/about/wp5.jpg")?>" alt="Corrección de tesis, tesinas u otros textos académicos">
 				  </div>
 				  <div class="card-body text-center">						
 						<div id="accordion9" class="th-accordions" data-children=".item">
@@ -188,7 +197,7 @@
 													</a>
 											<div id="accordion7" class="collapse show tab-pane" role="tabpanel">
 													<p class="description text-justify">
-													En caso de que, una vez presentado, el texto todavía requiera de pequeños ajustes. Recordemos que no hay páginas sin errores, sino páginascon errores por descubrir.
+													En caso de que, una vez presentado, el texto todavía requiera de pequeños ajustes. Recordemos que no hay páginas sin errores, sino páginas con errores por descubrir.
 													
 													
 													</p>
@@ -210,7 +219,7 @@
 
 				<div class="section-title text-center title-ex1">
 					<h2>TARIFARIO</h2>
-					<p>Se adaptará a los siguientes lineamientos:</p>
+					<p>El costo del servicio se fijará de acuerdo con los siguientes aspectos:</p>
 				</div>
 
 			</div>
@@ -223,7 +232,7 @@
 
 				<div class="card flex-wrap bg-sand hero-block home-about col-lg-4 col-md-4">
 				  <div class="process-img align-self-center d-md-flex d-xs-block">
-				  	<img src="<?=base_url("publico/images/about/wp1.jpg")?>" alt="Card image cap">
+				  	<img src="<?=base_url("publico/images/about/wp1.jpg")?>" alt="Corrección de tesis, tesinas u otros textos académicos">
 
 				  </div>
 				  <div class="card-body text-center">						
@@ -245,7 +254,7 @@
 
 				<div class="card flex-wrap bg-sand hero-block home-about col-lg-4 col-md-4">
 				  <div class="process-img align-self-center d-md-flex d-xs-block">
-				  	<img src="<?=base_url("publico/images/about/wp3.jpg")?>" alt="Card image cap">
+				  	<img src="<?=base_url("publico/images/about/wp3.jpg")?>" alt="Corrección de tesis, tesinas u otros textos académicos">
 
 				  </div>
 				  <div class="card-body text-center ">
@@ -256,7 +265,7 @@
 													</a>
 											<div id="accordion1" class="collapse show tab-pane" role="tabpanel">
 													<p class="description text-justify">
-													Se refiere al documento tal como ha sido entregado entregado por el cliente. En este sentido, desde la perspectiva del corrector, cada caso conllevará  un grado de dificultad distinto, que será tomado en cuenta al fijar el costo del servicio.
+													Se refiere al documento tal como ha sido entregado por el cliente. En este sentido, desde la perspectiva del corrector, cada caso conllevará  un grado de dificultad distinto, que será tomado en cuenta al fijar el costo del servicio.
 													</p>
 											</div>
 									</div>				
@@ -266,7 +275,7 @@
 
 				<div class="card flex-wrap bg-sand hero-block home-about col-lg-4 col-md-4">
 				  <div class="process-img align-self-center d-md-flex d-xs-block">
-				  	<img src="<?=base_url("publico/images/about/wp2.jpg")?>" alt="Card image cap">
+				  	<img src="<?=base_url("publico/images/about/wp2.jpg")?>" alt="Corrección de tesis, tesinas u otros textos académicos">
 
 				  </div>
 				  <div class="card-body text-center">						
@@ -293,12 +302,13 @@
 	</div>
 
 		<div class="container">
+
 		<div class="row justify-content-md-center">
 			<div class="col-xl-12 col-lg-12 col-md-12">
 
 				<div class="section-title text-center title-ex1">
-					<h2>PAGO</h2>
-					<p></p>
+					<h2>PAGOS</h2>
+					<p>La remuneración por el servicio se hará de la siguiente manera:</p>
 				</div>
 
 			</div>
@@ -311,7 +321,7 @@
 
 				<div class="card flex-wrap bg-sand hero-block home-about col-lg-6 col-md-6">
 				  <div class="process-img align-self-center d-md-flex d-xs-block">
-				  	<img src="<?=base_url("publico/images/about/wp4.jpg")?>" alt="Card image cap">
+				  	<img src="<?=base_url("publico/images/about/wp4.jpg")?>" alt="Corrección de tesis, tesinas u otros textos académicos">
 
 				  </div>
 				  <div class="card-body text-center">						

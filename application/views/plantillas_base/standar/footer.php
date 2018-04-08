@@ -11,7 +11,7 @@
 							BORRADOR DE PAPA CORRECTORES
 						</p>
 						<div class="social-icons">
-							<a href="#" class="btn btn-social btn-social-o facebook">
+							<a href="https://www.facebook.com/papacorrectores/"  target="_blank" class="btn btn-social btn-social-o facebook">
 								<i class="fa fa-facebook-f"></i>
 							</a>
 							<a href="#" class="btn btn-social btn-social-o twitter">

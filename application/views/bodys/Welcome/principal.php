@@ -5,155 +5,126 @@
 	    <div id="rev_slider_1"  data-version="5.4.5" style="display:none">
 
 	        <ul>
-	            <!-- *********************** -->
-	            <!-- Slides to be added here -->
-	            <!-- *********************** -->
-
             	<li data-transition="fade" data-slotamount="5" data-masterspeed="700" data-title="Slide 1">
-		            <img src="<?=base_url("publico/images/slider/sl4.jpg")?>" alt="slidebg1" data-bgposition="center center"  data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+		            
+								<img src="<?=base_url("publico/images/slider/sl4.jpg")?>" alt="Corrección de tesis, tesinas u otros textos académicos" data-bgposition="center center"  data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
 
-					<!-- LAYER NR. 1 -->
-			<!--		<div class="tp-caption NotGeneric-Icon caption-1  tp-resizeme "
+		            <div class="tp-caption NotGeneric-Title caption-2  tp-resizeme" 
+								data-x="['center','center','center','center']" 
+								data-hoffset="['0','0','0','0']" 
+								data-y="['middle','middle','middle','middle']" 
+								data-voffset="['-63','-55','-50','-60']" 
+								data-fontsize="['55','45','30','22']" 
+								data-lineheight="['65','50','40','30']" 
+								data-width="auto" 
+								data-height="auto" 
+								data-fontweight="700" 
+								data-type="text" 
+								data-responsive_offset="on" 
+								data-frames="[{&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:[100%];s:inherit;e:inherit;&quot;,&quot;speed&quot;:1500,&quot;to&quot;:&quot;o:1;&quot;,&quot;delay&quot;:800,&quot;ease&quot;:&quot;Power4.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1000,&quot;to&quot;:&quot;y:[100%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]" 
+								data-textalign="['center','center','center','center']" 
+								data-paddingtop="[10,10,10,10]" 
+								data-paddingright="[0,0,0,0]" 
+								data-paddingbottom="[10,10,10,10]" 
+								data-paddingleft="[0,0,0,0]" 
+								style="z-index: 5;color:#f44336; white-space: nowrap; visibility: inherit; transition: none; text-align: center; line-height: 37px; border-width: 0px; margin: 0px; padding: 7px 0px; letter-spacing: 0px; font-weight: 700; font-size: 34px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;" id="layer-322838345">BORRADOR DE PAPA CORRECTORES
 
-						data-x="['center','center','center','center']"
-						data-hoffset="['0','0','0','0']"
-						data-y="['middle','middle','middle','middle']"
-						data-voffset="['-110','-100','-100','-100']"
-						data-width="['600','500','400','300']"
-						data-height="auto"
-						data-fontsize="['14','14','14','14']"
-						data-lineheight="['26','26','26','26']"
-						data-type="text"
-						data-responsive_offset="on"
-						data-fontweight = "500"
-						data-letterspacing = '8'
-						data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":800,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
-						data-textAlign="['center','center','center','center']"
-						data-paddingtop="[0,0,0,0]"
-						data-paddingright="[0,0,0,0]"
-						data-paddingbottom="[0,0,0,0]"
-						data-paddingleft="[0,0,0,0]"
-
-						style="z-index: 10; white-space: inherit; text-transform:left ;cursor:default;color:white">Bienvenidos a 
-					</div>-->
-
-		            <!-- LAYER NR. 2 -->
-		            <div class="tp-caption NotGeneric-Title caption-2  tp-resizeme"
-
-		              	data-x="['center','center','center','center']"
-		              	data-hoffset="['0','0','0','0']"
-		              	data-y="['middle','middle','middle','middle']"
-		              	data-voffset="['-63','-55','-50','-60']"
-		              	data-fontsize="['48','48','48','48']"
-		              	data-lineheight="['65','50','40','30']"
-		              	data-width="auto"
-		              	data-height="auto"
-		              	data-fontweight = "700"
-		              	data-type="text"
-		              	data-responsive_offset="on"
-
-		              	data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":800,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
-		              	data-textAlign="['center','center','center','center']"
-		              	data-paddingtop="[14,14,14,14]"
-		              	data-paddingright="[0,0,0,0]"
-		              	data-paddingbottom="[10,10,10,10]"
-		              	data-paddingleft="[0,0,0,0]"
-
-		              	style="z-index: 14; white-space: nowrap;text-transform:left;color:#f44336;">BORRADOR DE PAPA CORRECTORES
 		            </div>
-					<!-- LAYER 6 -->
 
-					<div class="tp-caption   tp-svg-layer tp-withaction rs-hover-ready tp-scrollbelowslider" id="slide-972-layer-4"
-						data-x="['center','center','center','center']"
-						data-hoffset="['0','0','0','0']"
-						data-y="['bottom','bottom','bottom','bottom']"
-						data-voffset="['40','20','20','20']"
-						data-width="['45','45','45','45']"
-						data-height="['45','45','45','45']"
-						data-whitespace="nowrap"
-						data-type="svg"
-						data-actions="[{&quot;event&quot;:&quot;click&quot;,&quot;action&quot;:&quot;scrollbelow&quot;,&quot;offset&quot;:&quot;px&quot;,&quot;delay&quot;:&quot;&quot;,&quot;speed&quot;:&quot;1000&quot;,&quot;ease&quot;:&quot;Power1.easeInOut&quot;}]"
-						data-svg_src="https://revolution.themepunch.com/wp-content/plugins/revslider/public/assets/assets/svg/hardware/ic_keyboard_arrow_down_24px.svg"
-						data-svg_idle="sc:transparent;sw:0;sda:0;sdo:0;"
-						data-svg_hover="sc:transparent;sw:0;sda:0;sdo:0;"
-						data-basealign="slide"
-						data-responsive_offset="off"
-						data-responsive="off"
-						data-frames="[{&quot;delay&quot;:1500,&quot;speed&quot;:1000,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:bottom;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power4.easeOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;frame&quot;:&quot;hover&quot;,&quot;speed&quot;:&quot;150&quot;,&quot;ease&quot;:&quot;Linear.easeNone&quot;,&quot;to&quot;:&quot;o:1;rX:0;rY:0;rZ:0;z:0;&quot;,&quot;style&quot;:&quot;c:rgb(255, 0, 0, 0.295);bc:rgb(255, 0, 0, 0.295);&quot;}]"
-						data-textalign="['center','center','center','center']"
-						data-paddingtop="[8,8,8,8]"
-						data-paddingright="[6,6,6,6]"
-						data-paddingbottom="[5,5,5,5]"
-						data-paddingleft="[6,6,6,6]" style="z-index: 10; background-color: rgb(12, 198, 82); min-width: 70px; max-width: 70px; color: rgb(255, 255, 255); font-family: &quot;Open Sans&quot;; border-color: rgb(12, 198, 82); border-style: solid; border-width: 2px; border-radius: 40px; cursor: pointer; visibility: inherit; transition: none; text-align: center; line-height: 26px; margin: 0px; padding: 20px 18px 5px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 70px; max-height: 70px; opacity: 1; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); box-shadow: rgb(153, 153, 153) 0px 0px 0px 0px;" >
-					</div>
 
-	            </li>
+
+								<div class="tp-caption   tp-svg-layer tp-withaction rs-hover-ready tp-scrollbelowslider" id="slide-972-layer-4"
+								
+								data-x="['center','center','center','center']"
+								data-hoffset="['0','0','0','0']"
+								data-y="['bottom','bottom','bottom','bottom']"
+								data-voffset="['40','20','20','20']"
+								data-width="['45','45','45','45']"
+								data-height="['45','45','45','45']"
+								data-whitespace="nowrap"
+								data-type="svg"
+								data-actions="[{&quot;event&quot;:&quot;click&quot;,&quot;action&quot;:&quot;scrollbelow&quot;,&quot;offset&quot;:&quot;px&quot;,&quot;delay&quot;:&quot;&quot;,&quot;speed&quot;:&quot;1000&quot;,&quot;ease&quot;:&quot;Power1.easeInOut&quot;}]"
+								data-svg_src="https://revolution.themepunch.com/wp-content/plugins/revslider/public/assets/assets/svg/hardware/ic_keyboard_arrow_down_24px.svg"
+								data-svg_idle="sc:transparent;sw:0;sda:0;sdo:0;"
+								data-svg_hover="sc:transparent;sw:0;sda:0;sdo:0;"
+								data-basealign="slide"
+								data-responsive_offset="off"
+								data-responsive="off"
+								data-frames="[{&quot;delay&quot;:1500,&quot;speed&quot;:1000,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:bottom;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power4.easeOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;frame&quot;:&quot;hover&quot;,&quot;speed&quot;:&quot;150&quot;,&quot;ease&quot;:&quot;Linear.easeNone&quot;,&quot;to&quot;:&quot;o:1;rX:0;rY:0;rZ:0;z:0;&quot;,&quot;style&quot;:&quot;c:rgb(46,216,163);bc:rgb(46,216,163);&quot;}]"
+								data-textalign="['center','center','center','center']"
+								data-paddingtop="[8,8,8,8]"
+								data-paddingright="[6,6,6,6]"
+								data-paddingbottom="[5,5,5,5]"
+								data-paddingleft="[6,6,6,6]" style="z-index: 10; color: rgb(12, 198, 82); min-width: 70px; max-width: 70px; color: rgb(255, 255, 255); font-family: &quot;Open Sans&quot;; border-color: rgb(12, 198, 82); border-style: solid; border-width: 2px; border-radius: 40px; cursor: pointer; visibility: inherit; transition: none; text-align: center; line-height: 26px; margin: 0px; padding: 20px 18px 5px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 70px; max-height: 70px; opacity: 1; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); box-shadow: rgb(153, 153, 153) 0px 0px 0px 0px;"  >
+						
+							</div>
+
+	          </li>
 
                	<!-- MINIMUM SLIDE STRUCTURE -->
-               	<li data-transition="fade">
+            <li data-transition="fade">
 
-               	    <!-- SLIDE'S MAIN BACKGROUND IMAGE -->
-               	    <img src="<?=base_url("publico/images/slider/sl4.jpg")?>" alt="Ocean" class="rev-slidebg">
-					<!-- LAYER NR. 1 -->
+               	<img src="<?=base_url("publico/images/slider/sl4.jpg")?>" alt="Corrección de tesis" class="rev-slidebg">
 
-		            <!-- LAYER NR. 2 -->
 		            <div class="tp-caption NotGeneric-Title caption-2  tp-resizeme"
 
-		              	data-x="['center','center','center','center']"
-		              	data-hoffset="['0','0','0','0']"
-		              	data-y="['middle','middle','middle','middle']"
-		              	data-voffset="['-63','-55','-50','-60']"
-		              	data-fontsize="['48','48','48','48']"
-		              	data-lineheight="['65','50','40','30']"
-		              	data-width="auto"
-		              	data-height="auto"
-		              	data-fontweight = "700"
-		              	data-type="text"
-		              	data-responsive_offset="on"
+									data-x="['center','center','center','center']" 
+									data-hoffset="['0','0','0','0']" 
+									data-y="['middle','middle','middle','middle']" 
+									data-voffset="['-63','-55','-50','-60']" 
+									data-fontsize="['55','45','30','22']" 
+									data-lineheight="['65','50','40','30']" 
+									data-width="auto" 
+									data-height="auto" 
+									data-fontweight="700" 
+									data-type="text" 
+									data-responsive_offset="on" 
+									data-frames="[{&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:[100%];s:inherit;e:inherit;&quot;,&quot;speed&quot;:1500,&quot;to&quot;:&quot;o:1;&quot;,&quot;delay&quot;:800,&quot;ease&quot;:&quot;Power4.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1000,&quot;to&quot;:&quot;y:[100%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]" 
+									data-textalign="['center','center','center','center']" 
+									data-paddingtop="[10,10,10,10]" 
+									data-paddingright="[0,0,0,0]" 
+									data-paddingbottom="[10,10,10,10]" 
+									data-paddingleft="[0,0,0,0]" 
+									style="z-index: 5;color:#f44336; white-space: nowrap; visibility: inherit; transition: none; text-align: center; line-height: 37px; border-width: 0px; margin: 0px; padding: 7px 0px; letter-spacing: 0px; font-weight: 700; font-size: 34px; min-height: 0px; min-width: 0px; max-height: none; max-width: none; opacity: 1; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); transform-origin: 50% 50% 0px;" id="layer-322838345">BORRADOR DE PAPA CORRECTORES
 
-		              	data-frames='[{"from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","speed":1500,"to":"o:1;","delay":800,"ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"Power2.easeInOut"}]'
-		              	data-textAlign="['center','center','center','center']"
-		              	data-paddingtop="[10,10,10,10]"
-		              	data-paddingright="[0,0,0,0]"
-		              	data-paddingbottom="[10,10,10,10]"
-		              	data-paddingleft="[0,0,0,0]"
-
-		              	style="z-index: 10; white-space: nowrap;text-transform:left;color:#f44336">
-		              	BORRADOR DE PAPA CORRECTORES
 		            </div>
 
-					<!-- LAYER 6 -->
 
-					<div class="tp-caption   tp-svg-layer tp-withaction rs-hover-ready tp-scrollbelowslider" id="slide-972-layer-4"
-						data-x="['center','center','center','center']"
-						data-hoffset="['0','0','0','0']"
-						data-y="['bottom','bottom','bottom','bottom']"
-						data-voffset="['40','20','20','20']"
-						data-width="['45','45','45','45']"
-						data-height="['45','45','45','45']"
-						data-whitespace="nowrap"
-						data-type="svg"
-						data-actions="[{&quot;event&quot;:&quot;click&quot;,&quot;action&quot;:&quot;scrollbelow&quot;,&quot;offset&quot;:&quot;px&quot;,&quot;delay&quot;:&quot;&quot;,&quot;speed&quot;:&quot;1000&quot;,&quot;ease&quot;:&quot;Power1.easeInOut&quot;}]"
-						data-svg_src="https://revolution.themepunch.com/wp-content/plugins/revslider/public/assets/assets/svg/hardware/ic_keyboard_arrow_down_24px.svg"
-						data-svg_idle="sc:transparent;sw:0;sda:0;sdo:0;"
-						data-svg_hover="sc:transparent;sw:0;sda:0;sdo:0;"
-						data-basealign="slide"
-						data-responsive_offset="off"
-						data-responsive="off"
-						data-frames="[{&quot;delay&quot;:1500,&quot;speed&quot;:1000,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:bottom;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power4.easeOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;frame&quot;:&quot;hover&quot;,&quot;speed&quot;:&quot;150&quot;,&quot;ease&quot;:&quot;Linear.easeNone&quot;,&quot;to&quot;:&quot;o:1;rX:0;rY:0;rZ:0;z:0;&quot;,&quot;style&quot;:&quot;c:rgb(46,216,163);bc:rgb(46,216,163);&quot;}]"
-						data-textalign="['center','center','center','center']"
-						data-paddingtop="[8,8,8,8]"
-						data-paddingright="[6,6,6,6]"
-						data-paddingbottom="[5,5,5,5]"
-						data-paddingleft="[6,6,6,6]" style="z-index: 10; background-color: rgb(12, 198, 82); min-width: 70px; max-width: 70px; color: rgb(255, 255, 255); font-family: &quot;Open Sans&quot;; border-color: rgb(12, 198, 82); border-style: solid; border-width: 2px; border-radius: 40px; cursor: pointer; visibility: inherit; transition: none; text-align: center; line-height: 26px; margin: 0px; padding: 20px 18px 5px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 70px; max-height: 70px; opacity: 1; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); box-shadow: rgb(153, 153, 153) 0px 0px 0px 0px;" >
-					</div>
-               	</li>
+
+								<div class="tp-caption   tp-svg-layer tp-withaction rs-hover-ready tp-scrollbelowslider" id="slide-972-layer-4"
+								
+									data-x="['center','center','center','center']"
+									data-hoffset="['0','0','0','0']"
+									data-y="['bottom','bottom','bottom','bottom']"
+									data-voffset="['40','20','20','20']"
+									data-width="['45','45','45','45']"
+									data-height="['45','45','45','45']"
+									data-whitespace="nowrap"
+									data-type="svg"
+									data-actions="[{&quot;event&quot;:&quot;click&quot;,&quot;action&quot;:&quot;scrollbelow&quot;,&quot;offset&quot;:&quot;px&quot;,&quot;delay&quot;:&quot;&quot;,&quot;speed&quot;:&quot;1000&quot;,&quot;ease&quot;:&quot;Power1.easeInOut&quot;}]"
+									data-svg_src="https://revolution.themepunch.com/wp-content/plugins/revslider/public/assets/assets/svg/hardware/ic_keyboard_arrow_down_24px.svg"
+									data-svg_idle="sc:transparent;sw:0;sda:0;sdo:0;"
+									data-svg_hover="sc:transparent;sw:0;sda:0;sdo:0;"
+									data-basealign="slide"
+									data-responsive_offset="off"
+									data-responsive="off"
+									data-frames="[{&quot;delay&quot;:1500,&quot;speed&quot;:1000,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:bottom;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power4.easeOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;opacity:0;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;frame&quot;:&quot;hover&quot;,&quot;speed&quot;:&quot;150&quot;,&quot;ease&quot;:&quot;Linear.easeNone&quot;,&quot;to&quot;:&quot;o:1;rX:0;rY:0;rZ:0;z:0;&quot;,&quot;style&quot;:&quot;c:rgb(46,216,163);bc:rgb(46,216,163);&quot;}]"
+									data-textalign="['center','center','center','center']"
+									data-paddingtop="[8,8,8,8]"
+									data-paddingright="[6,6,6,6]"
+									data-paddingbottom="[5,5,5,5]"
+									data-paddingleft="[6,6,6,6]" style="z-index: 10; background-color: rgb(12, 198, 82); min-width: 70px; max-width: 70px; color: rgb(255, 255, 255); font-family: &quot;Open Sans&quot;; border-color: rgb(12, 198, 82); border-style: solid; border-width: 2px; border-radius: 40px; cursor: pointer; visibility: inherit; transition: none; text-align: center; line-height: 26px; margin: 0px; padding: 20px 18px 5px; letter-spacing: 0px; font-weight: 400; font-size: 16px; white-space: nowrap; min-height: 70px; max-height: 70px; opacity: 1; transform-origin: 50% 50% 0px; transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); box-shadow: rgb(153, 153, 153) 0px 0px 0px 0px;" >
+							
+								</div>
+
+            </li>
 	        </ul>
 	 		<!-- Example Progress Bar, with a height and background color added to its style attribute -->
 	 		<div class="tp-bannertimer" style="height: 5px; background-color: rgba(0, 0, 0, 0.25);"></div>
 	    </div>
 
 	</div>
+
 </section>
 
 <!-- NOSOTROS -->
@@ -183,7 +154,7 @@
 				</div>
 
 				<div class="col-md-6 text-center">
-					<img src="<?=base_url("publico/images/about-promo.png")?>" class="img-rounded" alt="Cinque Terre" width="100%">				
+					<img src="<?=base_url("publico/images/about-promo.png")?>" class="Borrador de papa correctores, Corrección de tesis, tesinas u otros textos académicos" alt="Cinque Terre" width="100%">				
 				</div>
 
 			</div>
@@ -312,7 +283,7 @@
 			<div class="col-md-7 col-lg-8">
 			<div id="envio"></div>
 				<!-- Contact Form Starts-->
-				<form  name="enviarFormulario" id="enviarFormulario" method="post"> 
+				<form  name="enviarFormulario" id="enviarFormulario" method="post"> <br><br>
 					<div class="row ">
 						<div class="form-group col-md-3" >
 						  <input  type="text" class="form-control" id="name" name="name" placeholder="Nombre" required>

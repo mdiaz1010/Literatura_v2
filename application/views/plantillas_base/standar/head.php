@@ -1,11 +1,20 @@
 <!DOCTYPE html>
 <head>
+	<!-- google analytics -->
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-116824918-1"></script>
+					<script>
+					window.dataLayer = window.dataLayer || [];
+					function gtag(){dataLayer.push(arguments);}
+					gtag('js', new Date());
+					gtag('config', 'UA-116824918-1');
+					</script>
 <meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Borrador de Papa Correctores</title>
-	<meta name="description" content="Somos una iniciativa académica desarrollada por Pierre Chan y José Paolillo que se ocupa de la corrección de estilo. Dicha iniciativa se inscribe en un contexto nacional caracterizado por la pérdida total o parcial del arte de la escritura y por el menosprecio de quienes lo practican.">
-
+	<meta name="description" content="Revisión y corrección de tesis, tesinas, trabajos de grado u otros textos académicos. Mejoramiento de sintaxis, ortografría, puntuación, tipografía, léxico y aplicación de citados y formatos APA, MLA, Chicago, entre otros.">
+	<meta name="keywords"    content="Corrección de tesis, tesinas , Corrección de estilos, Corrección de textos, citados fuentes, formato">
 	<!-- PLUGINS CSS STYLE -->
 	<script src="<?= base_url('publico/js/jquery.min.js')?>"></script>
 	<link href="<?=base_url("publico/plugins/bootstrap/css/bootstrap.min.css")?>" rel="stylesheet">

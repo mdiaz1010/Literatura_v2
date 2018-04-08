@@ -1,11 +1,21 @@
-<div class=" text-center"  style="background-image: url('<?=base_url("publico/images/contactenos.jpg")?>');">
+<div class=" text-center"  style="
+
+								position: relative;        
+								max-width:100%;height:auto;
+								background-size: 100% 65%;       								
+								margin-left: auto;      
+								margin-right: auto;       
+								background-attachment: fixed; 
+								background-repeat: no-repeat; 
+								background-image: url('<?=base_url("publico/images/contactenos.jpg")?>');" data-bgposition="center center"  data-bgrepeat="no-repeat" data-bgparallax="10" class="rev-slidebg" data-no-retina>
 	<div class="row bredcrumb-inner">
 		<div class="col-sm-12  align-self-center">
-			
-			<ul class="" style="color:#000000">
-				<li><a href="<?=base_url('Welcome/index')?>" class="bread_link" style="color:#000000">Inicio</a></li>
-				<li style="color:#000000">Contáctenos</li>
+		<!--	
+			<ul class="" style="color:#f44336">
+				<li><a href="<?=base_url('Welcome/index')?>" class="bread_link" style="color:#f44336">Inicio</a></li>
+				<li style="color:#f44336">Nosotros</li>
 			</ul>
+		-->		
 		</div>
 	</div>
 </div>

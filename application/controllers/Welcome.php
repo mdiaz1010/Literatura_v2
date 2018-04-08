@@ -18,53 +18,54 @@ class Welcome extends CI_Controller {
         $this->load->view('plantillas_base/standar/body',$this->htmlData);
     }
 
-    public function nosotros()
+    public function nosotros_borrador_de_papa_correctores()
     {
         $this->htmlData['body']                           = "Welcome/nosotros";
         $this->load->view('plantillas_base/standar/body',$this->htmlData);
     }
 
-    public function contactenos(){
+    public function contactenos_borrador_de_papa_correctores(){
         $this->htmlData['body']                           = "Welcome/contactenos";
         $this->load->view('plantillas_base/standar/body',$this->htmlData);
 
     }
-     public function servicios(){
+     public function servicios_borrador_de_papa_correctores(){
         $this->htmlData['body']                           = "Welcome/servicios";
         $this->load->view('plantillas_base/standar/body',$this->htmlData);
 
     }
 
-    public function trabaja(){
+    public function trabaja_borrador_de_papa_correctores(){
         $this->htmlData['body']                           = "Welcome/trabaja";
         $this->load->view('plantillas_base/standar/body',$this->htmlData);
 
     }
 
-    public function t01(){
+    public function t01_jose_paolillo_torres(){
         $this->htmlData['body']                           = "Welcome/t01";
         $this->load->view('plantillas_base/standar/body',$this->htmlData);
 
     }
 
-    public function t02(){
+    public function t02_pierre_chan_pinedo(){
         $this->htmlData['body']                           = "Welcome/t02";
         $this->load->view('plantillas_base/standar/body',$this->htmlData);
 
     }
 
-    public function t03(){
+    public function t03_alonso_belaunde_degregori(){
         $this->htmlData['body']                           = "Welcome/t03";
         $this->load->view('plantillas_base/standar/body',$this->htmlData);
 
     }
-    public function t04(){
+    
+    public function t04_piero_gomez_carbonel(){
         $this->htmlData['body']                           = "Welcome/t04";
         $this->load->view('plantillas_base/standar/body',$this->htmlData);
 
     }
 
-    public function t05(){
+    public function t05_jose_dammert_bello(){
         $this->htmlData['body']                           = "Welcome/t05";
         $this->load->view('plantillas_base/standar/body',$this->htmlData);
 
@@ -77,8 +78,9 @@ class Welcome extends CI_Controller {
             $this->load->library('email');       
             $asunto= "El Sr. ".$nombre.' con '.'teléfono :  '.$telefono.' manifiesta que:'.$mensaje;        
             $this->email->from($correo,$nombre);
+            $list= array('marcodiazzavala@gmail.com,josepaolillo@hotmail.com,p.chan@pucp.pe,jpaolillo@papacorrectores.com,pchan@papacorrectores.com,info@papacorrectores.com');
             $this->email->to("info@papacorrectores.com");
-            $this->email->cc('marcodiazzavala@gmail.com');
+            $this->email->cc($list);
             $this->email->subject('Desde la pagina web');
             $this->email->message($asunto);
                      
