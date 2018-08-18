@@ -52,3 +52,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
+
+$route['']='Welcome/index';
+$route['nosotros']='Welcome/nosotros_borrador_de_papa_correctores';
+$route['servicios']='Welcome/servicios_borrador_de_papa_correctores';
+$route['trabaja-con-nosotros']='Welcome/trabaja_borrador_de_papa_correctores';
+$route['cotizacion-virtual']='Welcome/cotizacion_virtual';
+$route['contacto']='Welcome/contactenos_borrador_de_papa_correctores';
+
+$route['pierre-chan-pinedo']='Welcome/t02_pierre_chan_pinedo';
+$route['alonso-belaunde-degregori']='Welcome/t03_alonso_belaunde_degregori';
+$route['piero-gomez-carbonel']='Welcome/t04_piero_gomez_carbonel';
+$route['jose-dammert-bello']='Welcome/t05_jose_dammert_bello';
+$route['jose-paolillo-torres']='Welcome/t01_jose_paolillo_torres';

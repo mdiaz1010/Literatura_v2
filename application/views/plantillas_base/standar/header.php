@@ -12,7 +12,7 @@
 	</div>
 	<!-- HEADER -->
 	<header id="pageTop" class="header">
-	
+
 		<!-- NAVBAR -->
 		<nav class="navbar navbar-expand-md main-nav navbar-sticky header-transparent">
 			<div class="container">
@@ -25,30 +25,32 @@
 
 				<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<a class="navbar-brand" href="<?=base_url('Welcome/index')?>">
-					
-				   
+
+
 					<img width="180px" height="80px" align="right" src="<?=base_url('publico/images/logo.png')?>"  alt="Corrección de tesis,tesinas u otros textos académicos" >
 				   </img>
-					
-			
-				</a>				
+
+
+				</a>
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item">
-							<a class="nav-link" href="<?=base_url('Welcome/index')?>">Inicio <span class="sr-only">(current)</span></a>
+							<a class="nav-link" href="<?=base_url('')?>">Inicio <span class="sr-only">(current)</span></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="<?=base_url('Welcome/nosotros_borrador_de_papa_correctores')?>">Nosotros <span class="sr-only">(current)</span></a>
+							<a class="nav-link" href="<?=base_url('nosotros')?>">Nosotros <span class="sr-only">(current)</span></a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="<?=base_url('Welcome/servicios_borrador_de_papa_correctores')?>">Servicios<span class="sr-only">(current)</span></a>
+							<a class="nav-link" href="<?=base_url('servicios')?>">Servicios<span class="sr-only">(current)</span></a>
 						</li>
 
 						<li class="nav-item">
-							<a class="nav-link" href="<?=base_url('Welcome/trabaja_borrador_de_papa_correctores')?>">Trabaja con nosotros<span class="sr-only">(current)</span></a>
+							<a class="nav-link" href="<?=base_url('trabaja-con-nosotros')?>">Trabaja con nosotros<span class="sr-only">(current)</span></a>
 						</li>
-						
 						<li class="nav-item">
-							<a class="nav-link" href="<?=base_url('Welcome/contactenos_borrador_de_papa_correctores')?>">Contáctenos<span class="sr-only">(current)</span></a>
+							<a class="nav-link" href="<?=base_url('cotizacion-virtual')?>">Cotización virtual<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="<?=base_url('contacto')?>">Contáctanos<span class="sr-only">(current)</span></a>
 						</li>
 					</ul>
 				</div>

@@ -19,7 +19,7 @@
 	<script src="<?= base_url('publico/js/jquery.min.js')?>"></script>
 	<link href="<?=base_url("publico/plugins/bootstrap/css/bootstrap.min.css")?>" rel="stylesheet">
 	<link href="<?=base_url("publico/plugins/font-awesome/css/font-awesome.min.css")?>" rel="stylesheet">
-	<link href="<?=base_url("publico/plugins/simple-line-icons/css/simple-line-icons.css")?>" rel="stylesheet">	
+	<link href="<?=base_url("publico/plugins/simple-line-icons/css/simple-line-icons.css")?>" rel="stylesheet">
 	<link href="<?=base_url("publico/plugins/selectbox/select_option1.css")?>" rel="stylesheet">
 	<link href="<?=base_url("publico/plugins/slick/slick.css")?>" rel="stylesheet" media="screen">
 	<link href="<?=base_url("publico/plugins/slick/slick-theme.css")?>" rel="stylesheet" media="screen">
@@ -36,7 +36,7 @@
 	<link rel="stylesheet" href="<?=base_url("publico/plugins/revolution/css/layers.css")?>">
 	<link rel="stylesheet" href="<?=base_url("publico/plugins/revolution/css/captions-original.css")?>">
 	<link rel="stylesheet" href="<?=base_url("publico/plugins/revolution/css/navigation.css")?>">
-	
+
 	<!-- CUSTOM CSS -->
 	<link href="<?=base_url("publico/css/style.css")?>" rel="stylesheet">
 	<link rel="stylesheet" href="<?=base_url("publico/css/default.css")?>" id="option_color">

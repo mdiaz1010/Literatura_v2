@@ -2,16 +2,16 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Welcome extends CI_Controller {
-    public $htmlData = array(); 
+    public $htmlData = array();
     public function __construct() {
-        parent::__construct();               
+        parent::__construct();
         $this->htmlData = array(
-            "body"=> get_class($this) 
+            "body"=> get_class($this)
             ,"bodyData"=> (object) array()
             ,"headData"=> (object) array("titulo"=>"Crear Cliente")
-            ,"footerData"=> (object) array());               
-    }    
-	
+            ,"footerData"=> (object) array());
+    }
+
 	public function index()
 	{
         $this->htmlData['body']                           = "Welcome/principal";
@@ -58,7 +58,7 @@ class Welcome extends CI_Controller {
         $this->load->view('plantillas_base/standar/body',$this->htmlData);
 
     }
-    
+
     public function t04_piero_gomez_carbonel(){
         $this->htmlData['body']                           = "Welcome/t04";
         $this->load->view('plantillas_base/standar/body',$this->htmlData);
@@ -70,22 +70,27 @@ class Welcome extends CI_Controller {
         $this->load->view('plantillas_base/standar/body',$this->htmlData);
 
     }
+    public function cotizacion_virtual()
+    {
+        $this->htmlData['body']                           = "Welcome/cotizacion_virtual";
+        $this->load->view('plantillas_base/standar/body',$this->htmlData);
+    }
     public function enviarFormulario(){
             $correo=$this->input->post('email');
             $nombre=$this->input->post('name');
             $mensaje=$this->input->post('men');
             $telefono=$this->input->post('telefono');
-            $this->load->library('email');       
-            $asunto= "El Sr. ".$nombre.' con '.'teléfono :  '.$telefono.' manifiesta que:'.$mensaje;        
+            $this->load->library('email');
+            $asunto= "El Sr. ".$nombre.' con '.'teléfono :  '.$telefono.' manifiesta que:'.$mensaje;
             $this->email->from($correo,$nombre);
-            $list= array('marcodiazzavala@gmail.com,josepaolillo@hotmail.com,p.chan@pucp.pe,jpaolillo@papacorrectores.com,pchan@papacorrectores.com,info@papacorrectores.com');
+            $list= array('marcodiazzavala@gmail.com,jmpaolillotorres@gmail.com,p.chan@pucp.pe,jpaolillo@papacorrectores.com,pchan@papacorrectores.com,info@papacorrectores.com');
             $this->email->to("info@papacorrectores.com");
             $this->email->cc($list);
             $this->email->subject('Desde la pagina web');
             $this->email->message($asunto);
-                     
+
             if($this->email->send()){
-             
+
                 ?>
                 <script>
                     alert("Mensaje enviado con satisfacción, en breve nos comunicaremos con usted.");
@@ -95,11 +100,11 @@ class Welcome extends CI_Controller {
                 ?>
                 <script>
                     alert("Sucedió algun error por favor vuelva a intentar.");
-                </script>                
-                
+                </script>
+
                 <?php
                 }
             //con esto podemos ver el resultado
-            
+
     }
 }
